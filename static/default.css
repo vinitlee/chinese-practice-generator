@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+:root {
+    --color-main: #888;
+    --color-highlight: #DDD;
+    --color-lowlight: #333;
+    --color-bkgr: #CCC;
+}
+
+*:active, *:focus {
+    outline: none;
+}
+
+html,body {
+    background: var(--color-bkgr);
+    margin: 0;
+    padding: 0;
+
+    font-family: Roboto, Helvetica, sans-serif;
+    color: var(--color-lowlight);
+}
+
+body {
+    margin: 5mm;
+}
+
+h1,h2,h3,h4,h5 {
+    margin: 0;
+}
+
+/* Special Elements */
+
+input, button {
+    background: var(--color-main);
+    color: var(--color-lowlight);
+    border: none;
+    border-radius: 1mm;
+    padding: 2mm 4mm;
+}
+
+button {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+button:hover {
+    cursor: pointer;
+    background: var(--color-highlight);
+}

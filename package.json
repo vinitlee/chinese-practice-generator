@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/vinitlee/chinese-practice-generator/issues"
   },
-  "homepage": "https://github.com/vinitlee/chinese-practice-generator#readme"
+  "homepage": "https://github.com/vinitlee/chinese-practice-generator#readme",
+  "dependencies": {
+    "@google-cloud/translate": "^2.1.4",
+    "aws-sdk": "^2.433.0"
+  }
 }
