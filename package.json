@@ -1,0 +1,22 @@
+{
+  "name": "chinese-practice-generator",
+  "version": "1.0.0",
+  "description": "App that generates practice phrases off of a template phrase",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --inspect index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinitlee/chinese-practice-generator.git"
+  },
+  "keywords": [
+    "chinese"
+  ],
+  "author": "Vincent Lee (vinitlee@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinitlee/chinese-practice-generator/issues"
+  },
+  "homepage": "https://github.com/vinitlee/chinese-practice-generator#readme"
+}
